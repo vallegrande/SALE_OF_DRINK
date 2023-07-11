@@ -1,0 +1,5 @@
+package com.saleofdrink.service;
+
+public class VentaDetalleService {
+
+}

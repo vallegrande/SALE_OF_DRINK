@@ -1,0 +1,78 @@
+package com.saleofdrink.model;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name = "producto")
+public class Producto {
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	@Column(name = "IDPRO")
+	private Long idpro;
+	
+	@Column(name = "NOMPRO")
+	private Long nompro;
+	
+	@Column(name = "CANPRO")
+	private Long canpro;
+	
+	@Column(name = "PRECPRO")
+	private Long precpro;
+	
+	@Column(name = "ESTPRO")
+	private Long estpro;
+
+	public Producto(Long nompro, Long canpro, Long precpro, Long estpro) {
+		super();
+		this.nompro = nompro;
+		this.canpro = canpro;
+		this.precpro = precpro;
+		this.estpro = estpro;
+	}
+
+	public Long getIdpro() {
+		return idpro;
+	}
+
+	public void setIdpro(Long idpro) {
+		this.idpro = idpro;
+	}
+
+	public Long getNompro() {
+		return nompro;
+	}
+
+	public void setNompro(Long nompro) {
+		this.nompro = nompro;
+	}
+
+	public Long getCanpro() {
+		return canpro;
+	}
+
+	public void setCanpro(Long canpro) {
+		this.canpro = canpro;
+	}
+
+	public Long getPrecpro() {
+		return precpro;
+	}
+
+	public void setPrecpro(Long precpro) {
+		this.precpro = precpro;
+	}
+
+	public Long getEstpro() {
+		return estpro;
+	}
+
+	public void setEstpro(Long estpro) {
+		this.estpro = estpro;
+	}
+}

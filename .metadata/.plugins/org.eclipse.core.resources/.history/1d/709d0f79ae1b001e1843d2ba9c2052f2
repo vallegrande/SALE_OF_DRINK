@@ -1,0 +1,91 @@
+package com.saleofdrink.model;
+
+import jakarta.persistence.CascadeType;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
+import jakarta.persistence.Table;
+
+
+@Entity
+@Table(name = "ventadetalle")
+
+public class VentaDetalle {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	
+	@Column(name = "IDVENDET")
+	private Long idvendet;
+	
+	
+	@Column(name = "CANVENDET")
+	private Long canvendet;
+	
+	@Column(name = "PREVENDET")
+	private Long prevendet;
+	
+	@Column(name = "ESTVENDET")
+	private Long estvendet;
+		
+	@ManyToOne(cascade = CascadeType.ALL)
+	@JoinColumn(name = "idpro")
+	private VentaDetalle ventadetalle;
+	
+	
+	public VentaDetalle(){
+		
+	}
+
+	public VentaDetalle(Long canvendet, Long prevendet, Long estvendet, VentaDetalle ventadetalle) {
+		super();
+		this.canvendet = canvendet;
+		this.prevendet = prevendet;
+		this.estvendet = estvendet;
+		this.ventadetalle = ventadetalle;
+	}
+
+	public Long getIdvendet() {
+		return idvendet;
+	}
+
+	public void setIdvendet(Long idvendet) {
+		this.idvendet = idvendet;
+	}
+
+	public Long getCanvendet() {
+		return canvendet;
+	}
+
+	public void setCanvendet(Long canvendet) {
+		this.canvendet = canvendet;
+	}
+
+	public Long getPrevendet() {
+		return prevendet;
+	}
+
+	public void setPrevendet(Long prevendet) {
+		this.prevendet = prevendet;
+	}
+
+	public Long getEstvendet() {
+		return estvendet;
+	}
+
+	public void setEstvendet(Long estvendet) {
+		this.estvendet = estvendet;
+	}
+
+	public VentaDetalle getVentadetalle() {
+		return ventadetalle;
+	}
+
+	public void setVentadetalle(VentaDetalle ventadetalle) {
+		this.ventadetalle = ventadetalle;
+	}
+}

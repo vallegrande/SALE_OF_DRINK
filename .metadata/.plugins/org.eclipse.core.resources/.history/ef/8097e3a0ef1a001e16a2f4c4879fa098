@@ -1,0 +1,5 @@
+package com.saleofdrink.rest;
+
+public class ProductoRest {
+
+}

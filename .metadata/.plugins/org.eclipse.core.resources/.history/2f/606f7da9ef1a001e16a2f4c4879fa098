@@ -1,0 +1,27 @@
+package com.saleofdrink.rest;
+
+import java.net.URI;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+
+
+import com.saleofdrink.model.Producto;
+
+public class ProductoRest {
+	/* METODO GUARDAR */
+	@PostMapping
+	private ResponseEntity<Producto> savePersona(@RequestBody Persona persona) {
+		try {
+			Persona personaGuardada = personaService.save(persona);
+			return ResponseEntity.created(new URI("/persona/" + personaGuardada.getIdper())).body(personaGuardada);
+		} catch (Exception e) {
+			System.out.println("error: " + e.getMessage());
+			return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
+		}
+
+	}
+}

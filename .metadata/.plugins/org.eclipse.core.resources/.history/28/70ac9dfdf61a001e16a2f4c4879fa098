@@ -1,0 +1,11 @@
+package com.saleofdrink.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class VentaDetalleService {
+
+	@Autowired
+	private VentaDetalleRepository ventaDetalleRepository;
+	
+	
+}
