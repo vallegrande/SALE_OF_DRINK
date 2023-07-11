@@ -3346,3 +3346,33 @@ org.eclipse.core.runtime.CoreException: Launch configuration Tomcat.SimpleRealm 
 2023-07-11 02:21:12,790 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2023-07-11 02:21:12,793 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\JUNIOR REJAS YMAN\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\SALE_OF_DRINK\src\test\resources
 2023-07-11 09:05:08,878 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-07-11 09:55:50,392 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-07-11 09:56:38,718 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-11 09:56:38,743 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-07-11 09:56:38,754 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\JUNIOR REJAS YMAN\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\SALE_OF_DRINK\src\test\resources
+2023-07-11 09:57:25,765 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-07-11 10:00:28,494 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-07-11 10:01:38,939 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-07-11 10:05:12,034 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-07-11 10:07:01,616 [ModalContext] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[C:\Users\JUNIOR REJAS YMAN\git\repository\.git]
+2023-07-11 10:07:14,102 [Worker-3: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SALE_OF_DRINK:0.0.1-SNAPSHOT @ C:\Users\JUNIOR REJAS YMAN\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\SALE_OF_DRINK - BACKEND\pom.xml.
+2023-07-11 10:07:16,122 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-11 10:07:16,152 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-07-11 10:07:16,157 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\JUNIOR REJAS YMAN\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\SALE_OF_DRINK - BACKEND\src\test\resources
+2023-07-11 10:07:18,818 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-11 10:07:18,825 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-07-11 10:07:18,838 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\JUNIOR REJAS YMAN\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\SALE_OF_DRINK - BACKEND\src\test\resources
+2023-07-11 10:07:27,108 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-07-11 10:07:27,109 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-07-11 10:07:27,114 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\JUNIOR REJAS YMAN\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\SALE_OF_DRINK - BACKEND\src\test\resources
+2023-07-11 10:09:12,792 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-07-11 10:09:12,793 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-07-11 10:09:12,798 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\JUNIOR REJAS YMAN\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\SALE_OF_DRINK - BACKEND\src\test\resources
+2023-07-11 10:09:45,914 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-07-11 10:15:07,794 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-11 10:15:07,819 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-07-11 10:15:07,827 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\JUNIOR REJAS YMAN\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\SALE_OF_DRINK - BACKEND\src\test\resources
+2023-07-11 10:17:05,960 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-07-11 10:19:52,642 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-11 10:19:52,708 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-07-11 10:19:52,739 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\JUNIOR REJAS YMAN\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\SALE_OF_DRINK - BACKEND\src\test\resources
